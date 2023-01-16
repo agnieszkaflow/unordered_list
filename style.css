@@ -1,0 +1,13 @@
+p {
+    margin-left: 45px;
+}
+
+ul.list {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+
+}
+
+ul>li:nth-of-type(even) {
+    text-align: center;
+}
