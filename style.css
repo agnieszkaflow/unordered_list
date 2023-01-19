@@ -2,12 +2,12 @@ p {
     margin-left: 45px;
 }
 
-ul.list {
+.list {
     list-style-type: upper-alpha;
     list-style-position: inside;
 
 }
 
-ul>li:nth-of-type(even) {
+.list>li:nth-child(even) {
     text-align: center;
 }
